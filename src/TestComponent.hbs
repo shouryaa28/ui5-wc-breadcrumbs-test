@@ -1,0 +1,8 @@
+{{#if booleanValue}}
+    <div>Loading...</div>
+{{else}}
+    <div>
+        <ui5-button @click="{{onClick}}">Add breadcrumb item</ui5-button>
+        {{breadcrumbsRoot}}
+    </div>
+{{/if}}
